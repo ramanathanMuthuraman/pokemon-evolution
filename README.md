@@ -33,12 +33,12 @@ to a PWA compliant one by following the below steps.
 
 - Caching
 
-  - [ ] Runtime caching
-  - [ ] Cache expiration
+  - [x] Runtime caching
+  - [x] Cache expiration
 
 ### Step 4
 
 - Add to home screen
 
   - [ ] Create manifest
-  - [ ] Install Prompt 
+  - [ ] Install Prompt
