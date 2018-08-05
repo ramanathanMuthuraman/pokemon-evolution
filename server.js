@@ -1,3 +1,4 @@
+const favicon = require('serve-favicon');
 const express = require('express'),
   app = express(),
   dist = 'dist';
@@ -10,6 +11,8 @@ const P = new Pokedex({
 });
 
 app.use(express.static(dist));
+
+app.use(favicon(__dirname + '/dist/images/icons/icon-72x72.png'));
 
 app.get('/', (request, response) => {
   response.sendFile(`${__dirname}/${dist}/index.html`);

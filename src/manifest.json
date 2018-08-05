@@ -1,8 +1,8 @@
 {
   "name": "Pokemon Evolution",
   "short_name": "Poke-Evo",
-  "theme_color": "#ff742b",
-  "background_color": "#9c979a",
+  "theme_color": "#ffffff",
+  "background_color": "#ff742b",
   "display": "standalone",
   "orientation": "portrait",
   "Scope": "/",

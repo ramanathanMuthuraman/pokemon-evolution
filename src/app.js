@@ -255,8 +255,6 @@ function init() {
 
   const btnAddToHome = document.getElementById('addToHome');
   btnAddToHome.addEventListener('click', (e) => {
-    // hide our user interface that shows our A2HS button
-    btnAddToHome.classList.add('hidden');
     // Show the prompt
     deferredPrompt.prompt();
     // Wait for the user to respond to the prompt
@@ -268,6 +266,8 @@ function init() {
           console.log('User dismissed the A2HS prompt');
         }
         deferredPrompt = null;
+        // hide our user interface that shows our A2HS button
+        btnAddToHome.classList.add('hidden');
       });
   });
 

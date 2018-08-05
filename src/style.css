@@ -74,6 +74,7 @@ body {
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 1;
 }
 
 .align-center {
@@ -194,4 +195,14 @@ body {
     width: 100%;
     padding: 2%;
     color: #fff;
+}
+
+#addToHome {
+    padding: 2%;
+    border: 1px solid #fff;
+    background: inherit;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
 }
