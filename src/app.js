@@ -120,7 +120,7 @@ function showResults() {
     img.setAttribute('title', name);
     img.setAttribute('alt', name);
     img.setAttribute('onclick', 'fetchSelectedPokemon(event)');
-    img.setAttribute('class', 'tabs');
+    img.setAttribute('class', 'tabs cursor-pointer');
     tabHeaderElement.append(img);
   });
   element.append(tabHeaderElement);
@@ -187,7 +187,7 @@ function renderTemplate(species) {
       containerElement.setAttribute('ondragstart', 'drag(event)');
       containerElement.setAttribute('ondrop', 'drop(event)');
       containerElement.setAttribute('ondragover', 'allowDrop(event)');
-      titleElement.setAttribute('class', 'pokemon-name align-center vertical-center custom-border-style');
+      titleElement.setAttribute('class', 'pokemon-name align-center vertical-center custom-border-style cursor-move');
       containerElement.appendChild(titleElement);
       pokemonElement.appendChild(containerElement);
     });
