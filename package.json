@@ -6,9 +6,8 @@
   "scripts": {
     "start": "npm run build && nodemon server.js",
     "clean": "rm -rf dist && mkdir dist",
-    "copy": "cpx 'src/**/*' dist && cp node_modules/workbox-sw/build/workbox-sw.js dist/",
-    "bootstrap": "workbox injectManifest workbox-config.js",
-    "build": "npm run clean && npm run copy && npm run bootstrap"
+    "copy": "cpx 'src/**/*' dist",
+    "build": "npm run clean && npm run copy"
   },
   "dependencies": {
     "express": "^4.16.1",

@@ -3,11 +3,6 @@
 This app is a simple game in which user has to get the evolution order of the Pokemon's correct.
 On completing it successfully, more information about the Pokemon's in the chain will be revealed.
 
-## To run application
-
-- npm install
-- npm start (To start the application)
-- Open http://localhost:5000 in browser
 
 ## Where do we go from here?
 
@@ -18,29 +13,30 @@ to a PWA compliant one by following the below steps.
 
 - Service worker
 
-  - [x] Setup workbox 
-  - [x] Register service worker
+  - [ ] Setup Workbox 
+  - [ ] Register service worker
 
 ### Step 2
 
 - App Shell
 
-  - [x] Add to workbox configuration 
-  - [x] Precache resources
-  - [x] Offline Indication
+  - [ ] Add to workbox configuration 
+  - [ ] Precache resources
+  - [ ] Offline Indication
 
 ### Step 3
 
 - Caching
 
-  - [x] Runtime caching
-  - [x] Cache expiration
+  - [ ] Runtime caching
+  - [ ] Cache expiration
 
 ### Step 4
 
 - Add to home screen
 
-  - [x] Create manifest
-  - [x] Install Prompt
+  - [ ] Create manifest
+  - [ ] Install Prompt
+
 
  

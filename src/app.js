@@ -55,19 +55,6 @@ async function fetchData(url, cb) {
   }
 }
 
-function updateOnlineStatus() {
-  let color;
-  const offlineMessageElement = document.querySelector('.offline-message');
-  if(!navigator.onLine) {
-    color = '#9c979a';
-    offlineMessageElement.classList.remove('hidden')
-  } else {
-    color = '#FF742B';
-    offlineMessageElement.classList.add('hidden')
-  }
-  document.querySelector('html').style.setProperty("--primary-color", color);
-}
-
 function getRandomItem(items) {
   return items[Math.floor(Math.random() * items.length)];
 }
@@ -120,7 +107,7 @@ function showResults() {
     img.setAttribute('title', name);
     img.setAttribute('alt', name);
     img.setAttribute('onclick', 'fetchSelectedPokemon(event)');
-    img.setAttribute('class', 'tabs cursor-pointer');
+    img.setAttribute('class', 'tabs');
     tabHeaderElement.append(img);
   });
   element.append(tabHeaderElement);
@@ -187,7 +174,7 @@ function renderTemplate(species) {
       containerElement.setAttribute('ondragstart', 'drag(event)');
       containerElement.setAttribute('ondrop', 'drop(event)');
       containerElement.setAttribute('ondragover', 'allowDrop(event)');
-      titleElement.setAttribute('class', 'pokemon-name align-center vertical-center custom-border-style cursor-move');
+      titleElement.setAttribute('class', 'pokemon-name align-center vertical-center custom-border-style');
       containerElement.appendChild(titleElement);
       pokemonElement.appendChild(containerElement);
     });
@@ -228,59 +215,9 @@ async function fetchEvolutionChain() {
 
 
 function init() {
-  // Injecting SW
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/sw.js').then(registration => {
-        console.log('SW registered: ', registration);
-      }).catch(registrationError => {
-        console.log('SW registration failed: ', registrationError);
-      });
-    });
-  }
-  // Injecting SW
-
-  // Network connection indicator
-  window.addEventListener('online', updateOnlineStatus);
-  window.addEventListener('offline', updateOnlineStatus);
-  updateOnlineStatus();
-  // Network connection indicator
-
   //fetch evolution
   fetchEvolutionChain();
   //fetch evolution
-
-  //Add to Home Screen
-  let deferredPrompt;
-
-  const btnAddToHome = document.getElementById('addToHome');
-  btnAddToHome.addEventListener('click', (e) => {
-    // Show the prompt
-    deferredPrompt.prompt();
-    // Wait for the user to respond to the prompt
-    deferredPrompt.userChoice
-      .then((choiceResult) => {
-        if (choiceResult.outcome === 'accepted') {
-          console.log('User accepted the A2HS prompt');
-        } else {
-          console.log('User dismissed the A2HS prompt');
-        }
-        deferredPrompt = null;
-        // hide our user interface that shows our A2HS button
-        btnAddToHome.classList.add('hidden');
-      });
-  });
-
-
-  window.addEventListener('beforeinstallprompt', (e) => {
-    // Prevent Chrome 67 and earlier from automatically showing the prompt
-    e.preventDefault();
-    // Stash the event so it can be triggered later.
-    deferredPrompt = e;
-
-    btnAddToHome.classList.remove('hidden');
-  });
-  //Add to Home Screen
 }
 
 function renderResults(item) {

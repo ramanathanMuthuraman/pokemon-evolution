@@ -4,7 +4,7 @@
 }
 
 html {
-    --primary-color: #FF742B;
+  --primary-color: #FF742B;
 }
 
 
@@ -148,6 +148,10 @@ body {
     padding-top: 10px;
 }
 
+.pokemon__card {
+
+}
+
 .hidden {
     display: none;
 }
@@ -166,14 +170,6 @@ body {
 
 .tab-headers {
     min-height: 100px;
-}
-
-.cursor-move {
-    cursor: move;
-}
-
-.cursor-pointer {
-    cursor: pointer;
 }
 
 .tab-content {
