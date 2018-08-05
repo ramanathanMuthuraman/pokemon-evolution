@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Evolution</title>
+    <meta name="Pokemon PWA" content="A PWA based Pokemon application"/>
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" href="./style.css" />
+    <!--<script async src="https://cdn.jsdelivr.net/npm/pwacompat@2.0.6/pwacompat.min.js"-->
+            <!--integrity="sha384-GOaSLecPIMCJksN83HLuYf9FToOiQ2Df0+0ntv7ey8zjUHESXhthwvq9hXAZTifA"-->
+            <!--crossorigin="anonymous"></script>-->
+</head>
+<body>
+<header class="page-header align-center">
+    <a href="/" class="logo-wrapper align-center">
+        <img class="logo" src="ball.png" alt="logo" title="logo" />
+        <h2 class="logo-name">
+            Pokemon Evolution
+        </h2>
+    </a>
+</header>
+<div class="container">
+    <button id="addToHome" class="hidden">Add to home screen</button>
+    <h2 class="error-text text-align-center hidden">Error!! Please try again</h2>
+    <div class="game-area">
+        <h3 class="info text-align-center">Rearrange the Pokemon as per
+            their evolution order and get to know more about them!!</h3>
+        <h6 class="order-error-text text-align-center hidden">*Ordered wrongly, try reordering again</h6>
+    </div>
+    <div class="result-wrapper hidden">
+        <h3 class="info text-align-center">Congrats!! Evolution order is correct. Select any
+            Pokemon to know more.. </h3>
+    </div>
+    <div class="loader hidden align-center vertical-center">
+        <div class="spinner"></div>
+    </div>
+    <div class="offline-message hidden text-align-center">
+        Oops, you're offline but you can still view already viewed Pokemon's.
+    </div>
+</div>
+<script type="text/javascript" src="./DragDropTouch.js"></script>
+<script type="text/javascript" src="./app.js"></script>
+</body>
+</html>
