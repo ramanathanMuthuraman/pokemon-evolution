@@ -25,9 +25,9 @@ to a PWA compliant one by following the below steps.
 
 - App Shell
 
-  - [ ] Add to workbox configuration 
-  - [ ] Precache resources
-  - [ ] Offline Indication
+  - [x] Add to workbox configuration 
+  - [x] Precache resources
+  - [x] Offline Indication
 
 ### Step 3
 
@@ -41,7 +41,4 @@ to a PWA compliant one by following the below steps.
 - Add to home screen
 
   - [ ] Create manifest
-  - [ ] Install Prompt
-
-
- 
+  - [ ] Install Prompt 

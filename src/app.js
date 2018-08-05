@@ -213,6 +213,18 @@ async function fetchEvolutionChain() {
   }
 }
 
+function updateOnlineStatus() {
+  let color;
+  const offlineMessageElement = document.querySelector('.offline-message');
+  if(!navigator.onLine) {
+    color = '#9c979a';
+    offlineMessageElement.classList.remove('hidden')
+  } else {
+    color = '#FF742B';
+    offlineMessageElement.classList.add('hidden')
+  }
+  document.querySelector('html').style.setProperty("--primary-color", color);
+}
 
 function init() {
   // Injecting SW
@@ -226,6 +238,11 @@ function init() {
     });
   }
   // Injecting SW
+  // Network connection indicator
+  window.addEventListener('online', updateOnlineStatus);
+  window.addEventListener('offline', updateOnlineStatus);
+  updateOnlineStatus();
+  // Network connection indicator
   //fetch evolution
   fetchEvolutionChain();
   //fetch evolution
