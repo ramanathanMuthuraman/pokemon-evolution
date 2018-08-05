@@ -15,7 +15,7 @@ workbox.skipWaiting();
 workbox.clientsClaim();
 workbox.precaching.precacheAndRoute([]);
 
-const matchCb = ({url}) => {
+const evolutionMatchCb = ({url}) => {
   return (url.search.includes('evolutionId'));
 };
 
@@ -63,7 +63,7 @@ const removeRequestFromCache = (request, cache) => {
   return cache.delete(request);
 };
 
-const handlerCb = ({event}) => {
+const evolutionHandlerCb = ({event}) => {
   event.respondWith(async function () {
     // Try to get the response from a network.
     try {
@@ -95,6 +95,6 @@ const handlerCb = ({event}) => {
   }());
 };
 
-workbox.routing.registerRoute(matchCb, handlerCb);
+workbox.routing.registerRoute(evolutionMatchCb, evolutionHandlerCb);
 
 
