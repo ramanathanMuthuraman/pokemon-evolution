@@ -1,0 +1,860 @@
+{
+  "capture_rate": 45,
+  "habitat": {
+    "url": "https://pokeapi.co/api/v2/pokemon-habitat/3/",
+    "name": "grassland"
+  },
+  "color": {
+    "url": "https://pokeapi.co/api/v2/pokemon-color/5/",
+    "name": "green"
+  },
+  "forms_switchable": true,
+  "shape": {
+    "url": "https://pokeapi.co/api/v2/pokemon-shape/8/",
+    "name": "quadruped"
+  },
+  "names": [
+    {
+      "name": "妙蛙花",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/12/",
+        "name": "zh-Hans"
+      }
+    },
+    {
+      "name": "フシギバナ",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "name": "Venusaur",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "name": "Venusaur",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "name": "Venusaur",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "name": "Bisaflor",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "name": "Florizarre",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "name": "妙蛙花",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/4/",
+        "name": "zh-Hant"
+      }
+    },
+    {
+      "name": "이상해꽃",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "name": "Fushigibana",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/2/",
+        "name": "roomaji"
+      }
+    },
+    {
+      "name": "フシギバナ",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    }
+  ],
+  "id": 3,
+  "egg_groups": [
+    {
+      "url": "https://pokeapi.co/api/v2/egg-group/7/",
+      "name": "plant"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/egg-group/1/",
+      "name": "monster"
+    }
+  ],
+  "base_happiness": 70,
+  "generation": {
+    "url": "https://pokeapi.co/api/v2/generation/1/",
+    "name": "generation-i"
+  },
+  "flavor_text_entries": [
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "十分な　栄養と　太陽の　光が\n花の　色を　鮮やかに　すると　いわれる。\n花の　香りは　人の　心を　癒す。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "There is a large flower on Venusaur’s back. The flower is said\nto take on vivid colors if it gets plenty of nutrition and sunlight.\nThe flower’s aroma soothes the emotions of people.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "C’è un grande fiore sulla schiena di Venusaur. Si dice che\ni colori diventino più vividi con il giusto nutrimento e i\nraggi solari. Il suo profumo calma le reazioni emotive\ndelle persone.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "Venusaur tiene una flor enorme en el lomo que, según\nparece, adquiere unos colores muy vivos si está bien\nnutrido y le da mucho el sol. El aroma delicado de la flor\ntiene un efecto relajante en el ánimo de las personas.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "Bisaflor hat eine Blume auf seinem Rücken. Wenn sie viel\nNahrung und Sonne aufnimmt, verfärbt sie sich bunt.\nDer Duft der Blume besänftigt die Gemüter der Menschen.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "Une belle fleur se trouve sur le dos de Florizarre.\nElle prend une couleur vive lorsqu’elle est bien nourrie et bien\nensoleillée. Le parfum de cette fleur peut apaiser les gens.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "충분한 영양분과 태양의 빛이\n꽃의 색을 선명하게 만든다고 한다.\n꽃의 향기는 사람의 마음을 치유한다.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "じゅうぶんな　えいようと　たいようの　ひかりが\nはなの　いろを　あざやかに　すると　いわれる。\nはなの　かおりは　ひとの　こころを　いやす。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "十分な　栄養と　太陽の　光が\n花の　色を　鮮やかに　すると　いわれる。\n花の　香りは　人の　心を　癒す。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "There is a large flower on Venusaur’s back. The flower is said\nto take on vivid colors if it gets plenty of nutrition and sunlight.\nThe flower’s aroma soothes the emotions of people.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "C’è un grande fiore sulla schiena di Venusaur. Si dice che\ni colori diventino più vividi con il giusto nutrimento e i\nraggi solari. Il suo profumo calma le reazioni emotive\ndelle persone.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "Venusaur tiene una flor enorme en el lomo que, según\nparece, adquiere unos colores muy vivos si está bien\nnutrido y le da mucho el sol. El aroma delicado de la flor\ntiene un efecto relajante en el ánimo de las personas.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "Bisaflor hat eine Blume auf seinem Rücken. Wenn sie\nviel Nahrung und Sonne aufnimmt, verfärbt sie sich bunt.\nDer Duft der Blume mildert die Emotionen der Menschen.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "Une belle fleur se trouve sur le dos de Florizarre.\nElle prend une couleur vive lorsqu’elle est bien nourrie et bien\nensoleillée. Le parfum de cette fleur peut apaiser les gens.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "충분한 영양분과 태양의 빛이\n꽃의 색을 선명하게 만든다고 한다.\n꽃의 향기는 사람의 마음을 치유한다.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "じゅうぶんな　えいようと　たいようの　ひかりが\nはなの　いろを　あざやかに　すると　いわれる。\nはなの　かおりは　ひとの　こころを　いやす。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "雨の　降った　翌日は\n背中の　花の　香りが　強まる。\n香りに　誘われ　ポケモンが　集まる。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "After a rainy day, the flower on its back smells\nstronger. The scent attracts other Pokémon.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "Dopo la pioggia, il fiore sul suo dorso emana un\nprofumo più intenso e attira gli altri Pokémon.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "Después de un día de lluvia, la flor de su lomo tiene\nun aroma más potente y atrae a otros Pokémon.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "Nach einem Regentag riecht die Blume auf seinem\nRücken intensiver. Das Aroma zieht andere\nPokémon an.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "Le parfum de sa fleur se fait plus pénétrant les\nlendemains de pluie. Cela appâte les autres Pokémon.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "비가 내린 다음 날은 등의\n꽃향기가 강해진다. 향기에\n이끌려 포켓몬이 모여든다.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "あめの　ふった　よくじつは　せなかの\nはなの　かおりが　つよまる。かおりに\nさそわれ　ポケモンが　あつまる。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "大きな　花びらを　広げ\n太陽の　光を　浴びていると\n体に　元気が　みなぎっていく。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "By spreading the broad petals of its flower\nand catching the sun’s rays, it fills its body\nwith power.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "Si riempie di energia grazie ai grandi petali del fiore,\nche spalanca catturando i raggi solari.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "Llena su cuerpo de energía con los rayos solares que\ncaptan los anchos pétalos de su flor.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "Es spreizt die breiten Blätter seiner Blüte,\num seinen Körper mit Sonnenenergie\nzu durchfluten.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "Ses pétales lui servent à capter la lumière du soleil.\nIl peut ainsi en canaliser l’énergie.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "큰 꽃잎을 펼쳐\n햇빛을 받고 있으면\n몸에 힘이 넘쳐흐른다.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "おおきな　はなびらを　ひろげ\nたいようの　ひかりを　あびていると\nからだに　げんきが　みなぎっていく。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/22/",
+        "name": "white-2"
+      },
+      "flavor_text": "After a rainy day, the flower on\nits back smells stronger. The\nscent attracts other Pokémon.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/21/",
+        "name": "black-2"
+      },
+      "flavor_text": "After a rainy day, the flower on\nits back smells stronger. The\nscent attracts other Pokémon.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/18/",
+        "name": "white"
+      },
+      "flavor_text": "After a rainy day, the flower on\nits back smells stronger. The\nscent attracts other Pokémon.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/18/",
+        "name": "white"
+      },
+      "flavor_text": "Le parfum de sa fleur se fait plus\npénétrant les lendemains de pluie.\nCela appâte les autres Pokémon.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/17/",
+        "name": "black"
+      },
+      "flavor_text": "After a rainy day, the flower on\nits back smells stronger. The\nscent attracts other Pokémon.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/17/",
+        "name": "black"
+      },
+      "flavor_text": "Le parfum de sa fleur se fait plus\npénétrant les lendemains de pluie.\nCela appâte les autres Pokémon.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/16/",
+        "name": "soulsilver"
+      },
+      "flavor_text": "It is able to convert sunlight into\nenergy. As a result, it is more\npowerful in the summertime.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/15/",
+        "name": "heartgold"
+      },
+      "flavor_text": "By spreading the broad petals of\nits flower and catching the sun’s\nrays, it fills its body with power.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/14/",
+        "name": "platinum"
+      },
+      "flavor_text": "After a rainy day, the flower on\nits back smells stronger. The\nscent attracts other Pokémon.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/13/",
+        "name": "pearl"
+      },
+      "flavor_text": "After a rainy day, the flower on\nits back smells stronger. The\nscent attracts other Pokémon.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/12/",
+        "name": "diamond"
+      },
+      "flavor_text": "After a rainy day, the flower on\nits back smells stronger. The\nscent attracts other Pokémon.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/11/",
+        "name": "leafgreen"
+      },
+      "flavor_text": "Its plant blooms when it is absorbing\nsolar energy. It stays on the move to\nseek sunlight.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/10/",
+        "name": "firered"
+      },
+      "flavor_text": "A bewitching aroma wafts from its flower.\nThe fragrance becalms those engaged in\na battle.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/9/",
+        "name": "emerald"
+      },
+      "flavor_text": "VENUSAUR’s flower is said to take on vivid\ncolors if it gets plenty of nutrition and\nsunlight. The flower’s aroma soothes the\nemotions of people.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/8/",
+        "name": "sapphire"
+      },
+      "flavor_text": "There is a large flower on VENUSAUR’s\nback. The flower is said to take on vivid\ncolors if it gets plenty of nutrition\fand sunlight. The flower’s aroma\nsoothes the emotions of people.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/7/",
+        "name": "ruby"
+      },
+      "flavor_text": "There is a large flower on VENUSAUR’s\nback. The flower is said to take on vivid\ncolors if it gets plenty of nutrition\fand sunlight. The flower’s aroma\nsoothes the emotions of people.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/6/",
+        "name": "crystal"
+      },
+      "flavor_text": "As it warms it­\nself and absorbs\nthe sunlight, its\fflower petals\nrelease a pleasant\nfragrance.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/5/",
+        "name": "silver"
+      },
+      "flavor_text": "It is able to con­\nvert sunlight into\nenergy. As a\fresult, it is more\npowerful in the\nsummertime.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/4/",
+        "name": "gold"
+      },
+      "flavor_text": "By spreading the\nbroad petals of\nits flower and\fcatching the sun's\nrays, it fills its\nbody with power.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/3/",
+        "name": "yellow"
+      },
+      "flavor_text": "The flower on its\nback catches the\nsun's rays.\fThe sunlight is\nthen absorbed and\nused for energy.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/2/",
+        "name": "blue"
+      },
+      "flavor_text": "The plant blooms\nwhen it is\nabsorbing solar\fenergy. It stays\non the move to\nseek sunlight.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/1/",
+        "name": "red"
+      },
+      "flavor_text": "The plant blooms\nwhen it is\nabsorbing solar\fenergy. It stays\non the move to\nseek sunlight.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    }
+  ],
+  "growth_rate": {
+    "url": "https://pokeapi.co/api/v2/growth-rate/4/",
+    "name": "medium-slow"
+  },
+  "hatch_counter": 20,
+  "genera": [
+    {
+      "genus": "种子宝可梦",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/12/",
+        "name": "zh-Hans"
+      }
+    },
+    {
+      "genus": "たねポケモン",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "genus": "Seed Pokémon",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "genus": "Pokémon Seme",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "genus": "Pokémon Semilla",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "genus": "Samen",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "genus": "Pokémon Graine",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "genus": "種子寶可夢",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/4/",
+        "name": "zh-Hant"
+      }
+    },
+    {
+      "genus": "씨앗포켓몬",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "genus": "たねポケモン",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    }
+  ],
+  "evolves_from_species": {
+    "url": "https://pokeapi.co/api/v2/pokemon-species/2/",
+    "name": "ivysaur"
+  },
+  "form_descriptions": [],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "url": "https://pokeapi.co/api/v2/pokemon/3/",
+        "name": "venusaur"
+      }
+    },
+    {
+      "is_default": false,
+      "pokemon": {
+        "url": "https://pokeapi.co/api/v2/pokemon/10033/",
+        "name": "venusaur-mega"
+      }
+    }
+  ],
+  "name": "venusaur",
+  "evolution_chain": {
+    "url": "https://pokeapi.co/api/v2/evolution-chain/1/"
+  },
+  "has_gender_differences": true,
+  "is_baby": false,
+  "gender_rate": 1,
+  "pal_park_encounters": [
+    {
+      "rate": 3,
+      "base_score": 90,
+      "area": {
+        "url": "https://pokeapi.co/api/v2/pal-park-area/2/",
+        "name": "field"
+      }
+    }
+  ],
+  "order": 3,
+  "pokedex_numbers": [
+    {
+      "entry_number": 82,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/12/",
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 233,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/7/",
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 228,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/3/",
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 3,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/2/",
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 3,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/1/",
+        "name": "national"
+      }
+    }
+  ]
+}

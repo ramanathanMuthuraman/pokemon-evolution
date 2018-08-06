@@ -1,0 +1,850 @@
+{
+  "capture_rate": 45,
+  "habitat": {
+    "url": "https://pokeapi.co/api/v2/pokemon-habitat/9/",
+    "name": "waters-edge"
+  },
+  "color": {
+    "url": "https://pokeapi.co/api/v2/pokemon-color/2/",
+    "name": "blue"
+  },
+  "forms_switchable": false,
+  "shape": {
+    "url": "https://pokeapi.co/api/v2/pokemon-shape/6/",
+    "name": "upright"
+  },
+  "names": [
+    {
+      "name": "杰尼龟",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/12/",
+        "name": "zh-Hans"
+      }
+    },
+    {
+      "name": "ゼニガメ",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "name": "Squirtle",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "name": "Squirtle",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "name": "Squirtle",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "name": "Schiggy",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "name": "Carapuce",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "name": "傑尼龜",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/4/",
+        "name": "zh-Hant"
+      }
+    },
+    {
+      "name": "꼬부기",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "name": "Zenigame",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/2/",
+        "name": "roomaji"
+      }
+    },
+    {
+      "name": "ゼニガメ",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    }
+  ],
+  "id": 7,
+  "egg_groups": [
+    {
+      "url": "https://pokeapi.co/api/v2/egg-group/2/",
+      "name": "water1"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/egg-group/1/",
+      "name": "monster"
+    }
+  ],
+  "base_happiness": 70,
+  "generation": {
+    "url": "https://pokeapi.co/api/v2/generation/1/",
+    "name": "generation-i"
+  },
+  "flavor_text_entries": [
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "甲羅の　役目は　身を　守る　だけではない。\n丸い　形と　表面の　溝が　水の\n抵抗を　減らすので　早く　泳げるのだ。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "Squirtle’s shell is not merely used for protection.\nThe shell’s rounded shape and the grooves on its\nsurface help minimize resistance in water,\nenabling this Pokémon to swim at high speeds.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "La corazza di Squirtle non serve soltanto da protezione.\nLa particolare forma arrotondata e le scanalature\nsuperficiali lo aiutano a minimizzare l’attrito dell’acqua\nper nuotare ad alta velocità.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "El caparazón de Squirtle no le sirve de protección únicamente.\nSu forma redondeada y las hendiduras que tiene le ayudan\na deslizarse en el agua y le permiten nadar a gran velocidad.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "Schiggys Panzer dient nicht nur zum Schutz. Die runde Form\nund die Furchen auf der Oberfläche verringern den Widerstand\nim Wasser, sodass dieses Pokémon sehr schnell schwimmen\nkann.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "La carapace de Carapuce ne sert pas qu’à le protéger.\nLa forme ronde de sa carapace et ses rainures lui permettent\nd’améliorer son hydrodynamisme.\nCe Pokémon nage extrêmement vite.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "등껍질의 역할은 몸을 지키는 것뿐만이 아니다.\n둥그런 모양과 표면의 홈이 물의\n저항을 줄여서 빠르게 헤엄칠 수 있다.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "こうらの　やくめは　 を　まもる　だけではない。\nまるい　かたちと　ひょうめんの　 ぞが　 ずの\nていこうを　へらすので　はやく　およげるのだ。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "甲羅の　役目は　身を　守る　だけではない。\n丸い　形と　表面の　溝が　水の\n抵抗を　減らすので　早く　泳げるのだ。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "Squirtle’s shell is not merely used for protection.\nThe shell’s rounded shape and the grooves on its surface\nhelp minimize resistance in water, enabling this Pokémon\nto swim at high speeds.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "La corazza di Squirtle non serve soltanto da protezione.\nLa particolare forma arrotondata e le scanalature\nsuperficiali lo aiutano a minimizzare l’attrito dell’acqua\nper nuotare ad alta velocità.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "El caparazón de Squirtle no le sirve de protección únicamente.\nSu forma redondeada y las hendiduras que tiene le ayudan\na deslizarse en el agua y le permiten nadar a gran velocidad.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "Schiggys Panzer dient nicht nur zum Schutz. Die runde Form\nund die Furchen auf der Oberfläche verringern den Widerstand\nim Wasser, sodass dieses Pokémon sehr schnell schwimmen\nkann.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "La carapace de Carapuce ne sert pas qu’à le protéger.\nLa forme ronde de sa carapace et ses rainures lui permettent\nd’améliorer son hydrodynamisme.\nCe Pokémon nage extrêmement vite.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "등껍질의 역할은 몸을 지키는 것뿐만이 아니다.\n둥그런 모양과 표면의 홈이 물의\n저항을 줄여서 빠르게 헤엄칠 수 있다.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "こうらの　やくめは　 を　まもる　だけではない。\nまるい　かたちと　ひょうめんの　 ぞが　 ずの\nていこうを　へらすので　はやく　およげるのだ。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "水面から　水を　噴射して\nエサを　取る。危なくなると　甲羅に\n手足を　ひっこめて　身を　守る。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "Shoots water at prey while in the water. Withdraws\ninto its shell when in danger.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "Attacca i nemici con potenti getti d’acqua. Se si\nsente in pericolo si ritira dentro la sua corazza.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "Lanza agua a su presa desde el agua. Se esconde en\nsu concha cuando se siente en peligro.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "Dieses Pokémon jagt mit einem Wasserstrahl.\nBei Gefahr zieht es sich in seinen Panzer zurück.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "Caché sous l’eau, il crache un jet d’eau sur sa proie\net se cache à l’intérieur de sa carapace.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "수면에서 물을 분사하여\n먹이를 잡는다. 위험해지면 등껍질에\n손발을 감추고 몸을 지킨다.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "すいめんから　みずを　ふんしゃして\nエサをとる。あぶなくなると　こうらに\nてあしを　ひっこめて　みをまもる。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "甲羅に　閉じこもり　身を　守る。\n相手の　すきを　見逃さず\n水を　噴き出して　反撃する。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "It shelters itself in its shell, then strikes back\nwith spouts of water at every opportunity.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "Si ritira nel suo guscio e, alla prima occasione,\ncontrattacca colpendo il nemico con spruzzi d’acqua.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "Se protege con su caparazón y luego contraataca\nlanzando agua a presión cuando tiene oportunidad.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "Es zieht sich in seinen Panzer zurück und greift\ndann mit Wasserstrahlen seine Gegner an.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "Il se réfugie dans sa carapace et réplique en\néclaboussant l’ennemi à la première occasion.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "등껍질에 숨어 몸을 보호한다.\n상대의 빈틈을 놓치지 않고\n물을 뿜어내어 반격한다.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "こうらに　とじこもり　みを　まもる。\nあいての　すきを　みのがさず\nみずを　ふきだして　はんげきする。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/22/",
+        "name": "white-2"
+      },
+      "flavor_text": "It shelters itself in its shell\nthen strikes back with spouts of\nwater at every opportunity.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/21/",
+        "name": "black-2"
+      },
+      "flavor_text": "It shelters itself in its shell\nthen strikes back with spouts of\nwater at every opportunity.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/18/",
+        "name": "white"
+      },
+      "flavor_text": "It shelters itself in its shell,\nthen strikes back with spouts of\nwater at every opportunity.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/18/",
+        "name": "white"
+      },
+      "flavor_text": "Il se réfugie dans sa carapace\net réplique en éclaboussant\nl’ennemi à la première occasion.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/17/",
+        "name": "black"
+      },
+      "flavor_text": "It shelters itself in its shell,\nthen strikes back with spouts of\nwater at every opportunity.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/17/",
+        "name": "black"
+      },
+      "flavor_text": "Il se réfugie dans sa carapace\net réplique en éclaboussant\nl’ennemi à la première occasion.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/16/",
+        "name": "soulsilver"
+      },
+      "flavor_text": "The shell, which hardens soon after\nit is born, is resilient. If you\npoke it, it will bounce back out.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/15/",
+        "name": "heartgold"
+      },
+      "flavor_text": "The shell is soft when it is born.\nIt soon becomes so resilient,\nprodding fingers will bounce off it.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/14/",
+        "name": "platinum"
+      },
+      "flavor_text": "It shelters itself in its shell,\nthen strikes back with spouts of\nwater at every opportunity.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/13/",
+        "name": "pearl"
+      },
+      "flavor_text": "It shelters itself in its shell,\nthen strikes back with spouts of\nwater at every opportunity.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/12/",
+        "name": "diamond"
+      },
+      "flavor_text": "It shelters itself in its shell,\nthen strikes back with spouts of\nwater at every opportunity.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/11/",
+        "name": "leafgreen"
+      },
+      "flavor_text": "After birth, its back swells and hardens\ninto a shell. It powerfully sprays foam \nfrom its mouth.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/10/",
+        "name": "firered"
+      },
+      "flavor_text": "When it retracts its long neck into its\nshell, it squirts out water with vigorous\nforce.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/9/",
+        "name": "emerald"
+      },
+      "flavor_text": "Its shell is not just for protection.\nIts rounded shape and the grooves on its\nsurface minimize resistance in water,\nenabling SQUIRTLE to swim at high speeds.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/8/",
+        "name": "sapphire"
+      },
+      "flavor_text": "SQUIRTLE’s shell is not merely used\nfor protection.\nThe shell’s rounded shape and the\fgrooves on its surface help minimize\nresistance in water, enabling this\nPOKéMON to swim at high speeds.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/7/",
+        "name": "ruby"
+      },
+      "flavor_text": "SQUIRTLE’s shell is not merely used\nfor protection.\nThe shell’s rounded shape and the\fgrooves on its surface help minimize\nresistance in water, enabling this\nPOKéMON to swim at high speeds.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/6/",
+        "name": "crystal"
+      },
+      "flavor_text": "When it feels\nthreatened, it\ndraws its legs\finside its shell\nand sprays water\nfrom its mouth.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/5/",
+        "name": "silver"
+      },
+      "flavor_text": "The shell, which\nhardens soon after\nit is born, is\fresilient. If you\npoke it, it will\nbounce back out.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/4/",
+        "name": "gold"
+      },
+      "flavor_text": "The shell is soft\nwhen it is born.\nIt soon becomes so\fresilient, prod­\nding fingers will\nbounce off it.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/3/",
+        "name": "yellow"
+      },
+      "flavor_text": "Shoots water at\nprey while in the\nwater.\fWithdraws into\nits shell when in\ndanger.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/2/",
+        "name": "blue"
+      },
+      "flavor_text": "After birth, its\nback swells and\nhardens into a\fshell. Powerfully\nsprays foam from\nits mouth.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/1/",
+        "name": "red"
+      },
+      "flavor_text": "After birth, its\nback swells and\nhardens into a\fshell. Powerfully\nsprays foam from\nits mouth.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    }
+  ],
+  "growth_rate": {
+    "url": "https://pokeapi.co/api/v2/growth-rate/4/",
+    "name": "medium-slow"
+  },
+  "hatch_counter": 20,
+  "genera": [
+    {
+      "genus": "小龟宝可梦",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/12/",
+        "name": "zh-Hans"
+      }
+    },
+    {
+      "genus": "かめのこポケモン",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "genus": "Tiny Turtle Pokémon",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "genus": "Pokémon Tartaghina",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "genus": "Pokémon Tortuguita",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "genus": "Minikröte",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "genus": "Pokémon Minitortue",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "genus": "小龜寶可夢",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/4/",
+        "name": "zh-Hant"
+      }
+    },
+    {
+      "genus": "꼬마거북포켓몬",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "genus": "かめのこポケモン",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    }
+  ],
+  "evolves_from_species": null,
+  "form_descriptions": [],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "url": "https://pokeapi.co/api/v2/pokemon/7/",
+        "name": "squirtle"
+      }
+    }
+  ],
+  "name": "squirtle",
+  "evolution_chain": {
+    "url": "https://pokeapi.co/api/v2/evolution-chain/3/"
+  },
+  "has_gender_differences": false,
+  "is_baby": false,
+  "gender_rate": 1,
+  "pal_park_encounters": [
+    {
+      "rate": 30,
+      "base_score": 50,
+      "area": {
+        "url": "https://pokeapi.co/api/v2/pal-park-area/4/",
+        "name": "pond"
+      }
+    }
+  ],
+  "order": 7,
+  "pokedex_numbers": [
+    {
+      "entry_number": 86,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/12/",
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 237,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/7/",
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 232,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/3/",
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 7,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/2/",
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 7,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/1/",
+        "name": "national"
+      }
+    }
+  ]
+}
