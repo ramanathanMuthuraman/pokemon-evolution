@@ -1,0 +1,853 @@
+{
+  "capture_rate": 45,
+  "habitat": {
+    "url": "https://pokeapi.co/api/v2/pokemon-habitat/3/",
+    "name": "grassland"
+  },
+  "color": {
+    "url": "https://pokeapi.co/api/v2/pokemon-color/5/",
+    "name": "green"
+  },
+  "forms_switchable": false,
+  "shape": {
+    "url": "https://pokeapi.co/api/v2/pokemon-shape/8/",
+    "name": "quadruped"
+  },
+  "names": [
+    {
+      "name": "妙蛙草",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/12/",
+        "name": "zh-Hans"
+      }
+    },
+    {
+      "name": "フシギソウ",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "name": "Ivysaur",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "name": "Ivysaur",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "name": "Ivysaur",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "name": "Bisaknosp",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "name": "Herbizarre",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "name": "妙蛙草",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/4/",
+        "name": "zh-Hant"
+      }
+    },
+    {
+      "name": "이상해풀",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "name": "Fushigisou",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/2/",
+        "name": "roomaji"
+      }
+    },
+    {
+      "name": "フシギソウ",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    }
+  ],
+  "id": 2,
+  "egg_groups": [
+    {
+      "url": "https://pokeapi.co/api/v2/egg-group/7/",
+      "name": "plant"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/egg-group/1/",
+      "name": "monster"
+    }
+  ],
+  "base_happiness": 70,
+  "generation": {
+    "url": "https://pokeapi.co/api/v2/generation/1/",
+    "name": "generation-i"
+  },
+  "flavor_text_entries": [
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "つぼ を　支えるため　足腰が　強くなる。\n日なたで　じっとする　時間が　長くなれば\nいよいよ　大輪の　花が　咲くころだ。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "There is a bud on this Pokémon’s back. To support its weight,\nIvysaur’s legs and trunk grow thick and strong.\nIf it starts spending more time lying in the sunlight,\nit’s a sign that the bud will bloom into a large flower soon.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "C’è un germoglio piantato nella schiena di Ivysaur.\nPer sopportarne il peso, le zampe e il corpo crescono robusti.\nQuando inizia a passare più tempo esposto al sole, significa\nche il germoglio sboccerà presto in un grande fiore.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "Este Pokémon lleva un bulbo en el lomo y, para poder con\nsu peso, tiene unas patas y un tronco gruesos y fuertes.\nSi empieza a pasar más tiempo al sol, será porque el bulbo\nestá a punto de hacerse una flor grande.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "Bisaknosp hat eine Knospe auf seinem Rücken. Seine Beine\nund sein Stamm sind kräftig genug, um sein Gewicht zu tragen.\nWenn es lange in der Sonne liegt, ist das ein Anzeichen dafür,\ndass die Knospe bald blüht.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "Un bourgeon a poussé sur le dos de ce Pokémon. Pour en\nsupporter le poids, Herbizarre a dû se muscler les pattes.\nLorsqu’il commence à se prélasser au soleil, ça signifie que\nson bourgeon va éclore, donnant naissance à une fleur.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "꽃봉오리를 지탱하기 위해 하반신이 강해진다.\n양지에서 가만히 있는 시간이 길어지면\n드디어 커다란 꽃이 필 때다.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "つぼ を　ささえるため　あしこしが　つよくなる。\nひなたで　じっとする　じかんが　ながくなれば\nいよいよ　たいりんの　はなが　さくころだ。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "つぼ を　支えるため　足腰が　強くなる。\n日なたで　じっとする　時間が　長くなれば\nいよいよ　大輪の　花が　咲くころだ。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "There is a bud on this Pokémon’s back. To support its weight,\nIvysaur’s legs and trunk grow thick and strong.\nIf it starts spending more time lying in the sunlight,\nit’s a sign that the bud will bloom into a large flower soon.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "C’è un germoglio piantato nella schiena di Ivysaur.\nPer sopportarne il peso, le zampe e il corpo crescono robusti.\nQuando inizia a passare più tempo esposto al sole, significa\nche il germoglio sboccerà presto in un grande fiore.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "Este Pokémon lleva un bulbo en el lomo y, para poder con\nsu peso, tiene unas patas y un tronco gruesos y fuertes.\nSi empieza a pasar más tiempo al sol, será porque el bulbo\nestá a punto de hacerse una flor grande.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "Bisaknosp hat eine Knospe auf seinem Rücken.\nBeine und Rumpf sind kräftig genug, um sein Gewicht\nzu tragen. Wenn es lange in der Sonne liegt, ist das\nein Anzeichen dafür, dass die Knospe bald blüht.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "Un bourgeon a poussé sur le dos de ce Pokémon. Pour en\nsupporter le poids, Herbizarre a dû se muscler les pattes.\nLorsqu’il commence à se prélasser au soleil, ça signifie que\nson bourgeon va éclore, donnant naissance à une fleur.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "꽃봉오리를 지탱하기 위해 하반신이 강해진다.\n양지에서 가만히 있는 시간이 길어지면\n드디어 커다란 꽃이 필 때다.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "つぼ を　ささえるため　あしこしが　つよくなる。\nひなたで　じっとする　じかんが　ながくなれば\nいよいよ　たいりんの　はなが　さくころだ。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "背中の　つぼみが　ふくらみ出すと\n甘い　においが　漂いはじめる。\n大輪の　花が　咲く　前触れ。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "When the bud on its back starts swelling, a sweet\naroma wafts to indicate the flower’s coming bloom.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "Quando il bocciolo che ha sul dorso si gonfia, emana\nun dolce profumo. È indice dell’imminente fioritura.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "Cuando el bulbo de su lomo se hincha, desprende un\ndulce aroma para indicar el florecimiento.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "Sobald die Knospe auf seinem Rücken ein süßes\nAroma abgibt, steht die Blüte kurz bevor.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "Lorsque le bourgeon sur son dos éclot, il répand\nun doux parfum pour célébrer sa floraison.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "등의 봉오리가 부풀어 오르면\n달콤한 냄새가 감돌기 시작한다.\n큰 꽃이 필 조짐이다.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "せなかの　つぼみが　ふくらみだすと\nあまい　においが　ただよいはじめる。\nたいりんの　はなが　さく　まえぶれ。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "つぼみが　背中に　ついていて\n養分を　吸収していくと\n大きな　花が　咲くという。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "There is a plant bulb on its back.\nWhen it absorbs nutrients, the bulb is said to\nblossom into a large flower.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "Dopo aver assorbito sufficienti sostanze nutrienti,\nil bulbo sulla schiena sboccia in un magnifico fiore.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "Este Pokémon tiene un bulbo en el lomo. Dicen que,\nal absorber nutrientes, el bulbo se transforma en una\nflor grande.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "Es trägt eine Knospe auf seinem Rücken. Nimmt es\nNahrung zu sich, soll aus der Knospe eine große\nblühende Blume werden.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "Il y a un bulbe sur son dos. On dit que s’il absorbe\nassez de nutriments, ce bulbe se transforme en\nune jolie fleur.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "꽃봉오리가 등에 붙어 있으며\n양분을 흡수해가면\n커다란 꽃이 핀다고 한다.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "つぼみが　せなかに　ついていて\nようぶんを　きゅうしゅうしていくと\nおおきな　はなが　さくという。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/22/",
+        "name": "white-2"
+      },
+      "flavor_text": "When the bud on its back starts\nswelling, a sweet aroma wafts to\nindicate the flower’s coming bloom.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/21/",
+        "name": "black-2"
+      },
+      "flavor_text": "When the bud on its back starts\nswelling, a sweet aroma wafts to\nindicate the flower’s coming bloom.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/18/",
+        "name": "white"
+      },
+      "flavor_text": "When the bud on its back starts\nswelling, a sweet aroma wafts to\nindicate the flower’s coming bloom.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/18/",
+        "name": "white"
+      },
+      "flavor_text": "Lorsque le bourgeon sur son dos\néclot, il répand un doux parfum\npour célébrer sa floraison.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/17/",
+        "name": "black"
+      },
+      "flavor_text": "When the bud on its back starts\nswelling, a sweet aroma wafts to\nindicate the flower’s coming bloom.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/17/",
+        "name": "black"
+      },
+      "flavor_text": "Lorsque le bourgeon sur son dos\néclot, il répand un doux parfum\npour célébrer sa floraison.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/16/",
+        "name": "soulsilver"
+      },
+      "flavor_text": "If the bud on its back starts to\nsmell sweet, it is evidence that\nthe large flower will soon bloom.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/15/",
+        "name": "heartgold"
+      },
+      "flavor_text": "Exposure to sunlight adds to its\nstrength. Sunlight also makes the\nbud on its back grow larger.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/14/",
+        "name": "platinum"
+      },
+      "flavor_text": "When the bud on its back starts\nswelling, a sweet aroma wafts to\nindicate the flower’s coming bloom.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/13/",
+        "name": "pearl"
+      },
+      "flavor_text": "When the bud on its back starts\nswelling, a sweet aroma wafts to\nindicate the flower’s coming bloom.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/12/",
+        "name": "diamond"
+      },
+      "flavor_text": "When the bud on its back starts\nswelling, a sweet aroma wafts to\nindicate the flower’s coming bloom.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/11/",
+        "name": "leafgreen"
+      },
+      "flavor_text": "When the bulb on its back grows large, it\nappears to lose the ability to stand on\nits hind legs.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/10/",
+        "name": "firered"
+      },
+      "flavor_text": "There is a plant bulb on its back.\nWhen it absorbs nutrients, the bulb is said\nto blossom into a large flower.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/9/",
+        "name": "emerald"
+      },
+      "flavor_text": "To support its bulb, IVYSAUR’s legs\ngrow sturdy. If it spends more time lying in\nthe sunlight, the bud will soon bloom into\na large flower.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/8/",
+        "name": "sapphire"
+      },
+      "flavor_text": "There is a bud on this POKéMON’s back.\nTo support its weight, IVYSAUR’s legs\nand trunk grow thick and strong.\fIf it starts spending more time lying\nin the sunlight, it’s a sign that the\nbud will bloom into a large flower soon.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/7/",
+        "name": "ruby"
+      },
+      "flavor_text": "There is a bud on this POKéMON’s back.\nTo support its weight, IVYSAUR’s legs\nand trunk grow thick and strong.\fIf it starts spending more time lying\nin the sunlight, it’s a sign that the\nbud will bloom into a large flower soon.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/6/",
+        "name": "crystal"
+      },
+      "flavor_text": "The bulb on its\nback grows as it\nabsorbs nutrients.\fThe bulb gives off\na pleasant aroma\nwhen it blooms.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/5/",
+        "name": "silver"
+      },
+      "flavor_text": "If the bud on its\nback starts to\nsmell sweet, it\fis evidence that\nthe large flower\nwill soon bloom.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/4/",
+        "name": "gold"
+      },
+      "flavor_text": "Exposure to sun­\nlight adds to its\nstrength. Sunlight\falso makes the bud\non its back grow\nlarger.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/3/",
+        "name": "yellow"
+      },
+      "flavor_text": "The bulb on its\nback grows by\ndrawing energy.\fIt gives off an\naroma when it is\nready to bloom.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/2/",
+        "name": "blue"
+      },
+      "flavor_text": "When the bulb on\nits back grows\nlarge, it appears\fto lose the\nability to stand\non its hind legs.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/1/",
+        "name": "red"
+      },
+      "flavor_text": "When the bulb on\nits back grows\nlarge, it appears\fto lose the\nability to stand\non its hind legs.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    }
+  ],
+  "growth_rate": {
+    "url": "https://pokeapi.co/api/v2/growth-rate/4/",
+    "name": "medium-slow"
+  },
+  "hatch_counter": 20,
+  "genera": [
+    {
+      "genus": "种子宝可梦",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/12/",
+        "name": "zh-Hans"
+      }
+    },
+    {
+      "genus": "たねポケモン",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "genus": "Seed Pokémon",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "genus": "Pokémon Seme",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "genus": "Pokémon Semilla",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "genus": "Samen",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "genus": "Pokémon Graine",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "genus": "種子寶可夢",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/4/",
+        "name": "zh-Hant"
+      }
+    },
+    {
+      "genus": "씨앗포켓몬",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "genus": "たねポケモン",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    }
+  ],
+  "evolves_from_species": {
+    "url": "https://pokeapi.co/api/v2/pokemon-species/1/",
+    "name": "bulbasaur"
+  },
+  "form_descriptions": [],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "url": "https://pokeapi.co/api/v2/pokemon/2/",
+        "name": "ivysaur"
+      }
+    }
+  ],
+  "name": "ivysaur",
+  "evolution_chain": {
+    "url": "https://pokeapi.co/api/v2/evolution-chain/1/"
+  },
+  "has_gender_differences": false,
+  "is_baby": false,
+  "gender_rate": 1,
+  "pal_park_encounters": [
+    {
+      "rate": 10,
+      "base_score": 80,
+      "area": {
+        "url": "https://pokeapi.co/api/v2/pal-park-area/2/",
+        "name": "field"
+      }
+    }
+  ],
+  "order": 2,
+  "pokedex_numbers": [
+    {
+      "entry_number": 81,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/12/",
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 232,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/7/",
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 227,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/3/",
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 2,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/2/",
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 2,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/1/",
+        "name": "national"
+      }
+    }
+  ]
+}
