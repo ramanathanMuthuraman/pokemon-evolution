@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 const Pokedex = require('pokedex-promise-v2');
 const P = new Pokedex({
   // cacheLimit: 0
-  timeout: 5000 // 5s
+  timeout: 3000 // 3s
 });
 
 function getRandomItem(items) {
