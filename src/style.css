@@ -181,6 +181,8 @@ body {
 .pokemon-container {
     padding: 10px;
     margin-bottom: 10%;
+    border: 5px dashed transparent;
+    border-radius: 50%;
 }
 
 .order-error-text {
@@ -205,4 +207,8 @@ body {
     font-size: 18px;
     color: #fff;
     text-align: center;
+}
+
+.drag-cue {
+    border-color: var(--primary-color);
 }

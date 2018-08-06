@@ -1,4 +1,5 @@
 const favicon = require('serve-favicon');
+const fs = require('fs');
 const express = require('express'),
   app = express(),
   dist = 'dist';
@@ -8,7 +9,14 @@ const PORT = process.env.PORT || 5000;
 const Pokedex = require('pokedex-promise-v2');
 const P = new Pokedex({
   // cacheLimit: 0
+  timeout: 5000 // 5s
 });
+
+function getRandomItem(items) {
+  return items[Math.floor(Math.random() * items.length)];
+}
+
+const cachedEvolutionList = [1, 2, 3];
 
 app.use(express.static(dist));
 
@@ -23,7 +31,11 @@ app.get('/api/pokemon/species/:name', (request, response) => {
   P.resource(`/api/v2/pokemon-species/${name}`).then(function (result) {
     response.send(result);
   }).catch(function (error) {
-    response.status(500).send(error.code);
+    const resourceLocation = `./mock/species/${name}.json`;
+    if(!fs.existsSync(resourceLocation)) {
+      return response.status(500).send(error.code);
+    }
+    return response.send(fs.readFileSync(resourceLocation));
   });
 });
 
@@ -33,8 +45,11 @@ app.get('/api/pokemon/evolution-chain/', (request, response) => {
   promiseRequest
     .then(function (result) {
       response.send(result);
-    }).catch(function (error) {
-    response.status(500).send(error.code);
+    }).catch(function () {
+    if(evolutionChainId) {
+      return response.send(fs.readFileSync(`./mock/evolution-chain/${getRandomItem(cachedEvolutionList)}.json`));
+    }
+    return response.send(fs.readFileSync('./mock/evolution-chain-index.json'));
   });
 });
 
