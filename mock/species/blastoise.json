@@ -1,0 +1,860 @@
+{
+  "capture_rate": 45,
+  "habitat": {
+    "url": "https://pokeapi.co/api/v2/pokemon-habitat/9/",
+    "name": "waters-edge"
+  },
+  "color": {
+    "url": "https://pokeapi.co/api/v2/pokemon-color/2/",
+    "name": "blue"
+  },
+  "forms_switchable": true,
+  "shape": {
+    "url": "https://pokeapi.co/api/v2/pokemon-shape/6/",
+    "name": "upright"
+  },
+  "names": [
+    {
+      "name": "水箭龟",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/12/",
+        "name": "zh-Hans"
+      }
+    },
+    {
+      "name": "カメックス",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "name": "Blastoise",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "name": "Blastoise",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "name": "Blastoise",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "name": "Turtok",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "name": "Tortank",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "name": "水箭龜",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/4/",
+        "name": "zh-Hant"
+      }
+    },
+    {
+      "name": "거북왕",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "name": "Kamex",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/2/",
+        "name": "roomaji"
+      }
+    },
+    {
+      "name": "カメックス",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    }
+  ],
+  "id": 9,
+  "egg_groups": [
+    {
+      "url": "https://pokeapi.co/api/v2/egg-group/2/",
+      "name": "water1"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/egg-group/1/",
+      "name": "monster"
+    }
+  ],
+  "base_happiness": 70,
+  "generation": {
+    "url": "https://pokeapi.co/api/v2/generation/1/",
+    "name": "generation-i"
+  },
+  "flavor_text_entries": [
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "甲羅の　噴射口の　ねらいは　正確。\n水の　弾丸を　５０メートル　離れた\n空き缶に　命中させる　ことが　できるぞ。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "Blastoise has water spouts that protrude from its shell.\nThe water spouts are very accurate.\nThey can shoot bullets of water with enough accuracy\nto strike empty cans from a distance of over 160 feet.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "Blastoise è dotato di cannoni ad acqua che fuoriescono dalla\ncorazza. I getti emessi sono così precisi da riuscire a colpire\nun bersaglio a una distanza di 50 m.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "Blastoise lanza chorros de agua con gran precisión por los\ntubos que le salen del caparazón que tiene en la espalda.\nPuede disparar chorros de agua con tanta puntería que no\nfallaría al tirar contra una lata pequeña a 50 m.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "Turtok besitzt Wasserdüsen, die aus seinem\nPanzer herausragen. Diese sind sehr präzise.\nEs kann Wassergeschosse so genau verschießen,\ndass es damit aus fast 50 m leere Dosen trifft.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "Tortank dispose de canons à eau émergeant de sa carapace.\nIls sont très précis et peuvent envoyer des balles d’eau\ncapables de faire mouche sur une cible située à plus de 50 m.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "등껍질의 분사구로 하는 조준은 정확하다.\n물 탄환으로 50m 떨어진\n빈 캔을 명중시킬 수 있다.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "こうらの　ふんしゃこうの　ねらいは　せいかく。\n ずの　だんがんを　５０メートル　はなれた\nあきかんに　めいちゅうさせる　ことが　できるぞ。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "甲羅の　噴射口の　ねらいは　正確。\n水の　弾丸を　５０メートル　離れた\n空き缶に　命中させる　ことが　できるぞ。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "Blastoise has water spouts that protrude from its shell.\nThe water spouts are very accurate. They can shoot bullets of\nwater with enough accuracy to strike empty cans from a\ndistance of over 160 feet.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "Blastoise è dotato di cannoni ad acqua che fuoriescono dalla\ncorazza. I getti emessi sono così precisi da riuscire a colpire\nun bersaglio a una distanza di 50 m.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "Blastoise lanza chorros de agua con gran precisión por los\ntubos que le salen del caparazón que tiene en la espalda.\nPuede disparar chorros de agua con tanta puntería que no\nfallaría al tirar contra una lata pequeña a 50 m.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "Turtok besitzt Wasserdüsen, die aus seinem\nPanzer herausragen. Diese sind sehr präzise.\nEs kann Wassergeschosse so genau verschießen,\ndass es damit aus fast 50 m leere Dosen trifft.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "Tortank dispose de canons à eau émergeant de sa carapace.\nIls sont très précis et peuvent envoyer des balles d’eau\ncapables de faire mouche sur une cible située à plus de 50 m.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "등껍질의 분사구로 하는 조준은 정확하다.\n물 탄환으로 50m 떨어진\n빈 캔을 명중시킬 수 있다.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "こうらの　ふんしゃこうの　ねらいは　せいかく。\n ずの　だんがんを　５０メートル　はなれた\nあきかんに　めいちゅうさせる　ことが　できるぞ。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "甲羅に　噴射口が　あって\nロケットのような　勢いで\n突っこんでくる　すごい　やつだ。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "The pressurized water jets on this brutal Pokémon’s\nshell are used for high-speed tackles.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "Pokémon brutale che lancia getti d’acqua ad alta\npressione dalla corazza, usati per attacchi rapidi.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "Es un Pokémon imponente. Tiene reactores de agua\nen el caparazón, que le sirven para atacar con fuerza.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "Ein mächtiges und schnelles Pokémon, das auf\ndem Rücken zwei Hochdruckwasserwerfer trägt.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "Ce Pokémon brutal est armé de canons hydrauliques.\nSes puissants jets d’eau sont dévastateurs.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "등껍질에 분사구가 있어\n로켓 같은 기세로\n덤벼드는 굉장한 녀석이다.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "こうらに　ふんしゃこうが　あって\nロケットのような　いきおいで\nつっこんでくる　すごい　やつだ。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "体が　重たく　のしかかって\n相手を　気絶させる。\nピンチのときは　殻に　隠れる。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "It crushes its foe under its heavy body to cause\nfainting. In a pinch, it will withdraw inside its shell.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "Mette KO gli avversari schiacciandoli sotto il corpo\npossente. Se è in difficoltà, può ritrarsi nella corazza.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "Para acabar con su enemigo, lo aplasta con el peso de\nsu cuerpo. En momentos de apuro, se esconde en el\ncaparazón.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "Es begräbt seine Gegner mit seinem enormen\nKörpergewicht. Wenn es in einer aussichtslosen\nLage steckt, zieht es sich in seinen Panzer zurück.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "Il écrase ses adversaires de tout son poids pour leur\nfaire perdre connaissance. Il rentre dans sa carapace\ns’il se sent en danger.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "무거운 몸으로 상대를\n덮쳐서 기절시킨다.\n위기에 처하면 등껍질에 숨는다.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "からだが　おもたく　のしかかって\nあいてを　きぜつさせる。\nピンチの　ときは　カラに　かくれる。",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/22/",
+        "name": "white-2"
+      },
+      "flavor_text": "The jets of water it spouts from\nthe rocket cannons on its shell\ncan punch through thick steel.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/21/",
+        "name": "black-2"
+      },
+      "flavor_text": "The jets of water it spouts from\nthe rocket cannons on its shell\ncan punch through thick steel.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/18/",
+        "name": "white"
+      },
+      "flavor_text": "The jets of water it spouts from\nthe rocket cannons on its shell\ncan punch through thick steel.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/18/",
+        "name": "white"
+      },
+      "flavor_text": "Les trombes d’eau projetées par\nles canons de sa carapace peuvent\npercer le métal le plus résistant.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/17/",
+        "name": "black"
+      },
+      "flavor_text": "The jets of water it spouts from\nthe rocket cannons on its shell\ncan punch through thick steel.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/17/",
+        "name": "black"
+      },
+      "flavor_text": "Les trombes d’eau projetées par\nles canons de sa carapace peuvent\npercer le métal le plus résistant.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/16/",
+        "name": "soulsilver"
+      },
+      "flavor_text": "The rocket cannons on its shell fire\njets of water capable of punching\nholes through thick steel.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/15/",
+        "name": "heartgold"
+      },
+      "flavor_text": "It deliberately makes itself heavy\nso it can withstand the recoil\nof the water jets it fires.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/14/",
+        "name": "platinum"
+      },
+      "flavor_text": "The jets of water it spouts from\nthe rocket cannons on its shell\ncan punch through thick steel.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/13/",
+        "name": "pearl"
+      },
+      "flavor_text": "The jets of water it spouts from\nthe rocket cannons on its shell\ncan punch through thick steel.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/12/",
+        "name": "diamond"
+      },
+      "flavor_text": "The jets of water it spouts from\nthe rocket cannons on its shell\ncan punch through thick steel.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/11/",
+        "name": "leafgreen"
+      },
+      "flavor_text": "The pressurized water jets on this brutal\nPOKéMON’s shell are used for high-\nspeed tackles.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/10/",
+        "name": "firered"
+      },
+      "flavor_text": "It crushes its foe under its heavy body\nto cause fainting. In a pinch, it will\nwithdraw inside its shell.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/9/",
+        "name": "emerald"
+      },
+      "flavor_text": "The waterspouts that protrude from its\nshell are highly accurate. Their bullets of\nwater can precisely nail tin cans from\na distance of over 160 feet.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/8/",
+        "name": "sapphire"
+      },
+      "flavor_text": "BLASTOISE has water spouts that\nprotrude from its shell. The water\nspouts are very accurate.\fThey can shoot bullets of water with\nenough accuracy to strike empty cans\nfrom a distance of over 160 feet.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/7/",
+        "name": "ruby"
+      },
+      "flavor_text": "BLASTOISE has water spouts that\nprotrude from its shell. The water\nspouts are very accurate.\fThey can shoot bullets of water with\nenough accuracy to strike empty cans\nfrom a distance of over 160 feet.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/6/",
+        "name": "crystal"
+      },
+      "flavor_text": "It firmly plants\nits feet on the\nground before\fshooting water\nfrom the jets on\nits back.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/5/",
+        "name": "silver"
+      },
+      "flavor_text": "The rocket cannons\non its shell fire\njets of water\fcapable of punch­\ning holes through\nthick steel.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/4/",
+        "name": "gold"
+      },
+      "flavor_text": "It deliberately\nmakes itself heavy\nso it can with­\fstand the recoil\nof the water jets\nit fires.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/3/",
+        "name": "yellow"
+      },
+      "flavor_text": "Once it takes aim\nat its enemy, it\nblasts out water\fwith even more\nforce than a fire\nhose.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/2/",
+        "name": "blue"
+      },
+      "flavor_text": "A brutal POKéMON\nwith pressurized\nwater jets on its\fshell. They are\nused for high\nspeed tackles.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/1/",
+        "name": "red"
+      },
+      "flavor_text": "A brutal POKéMON\nwith pressurized\nwater jets on its\fshell. They are\nused for high\nspeed tackles.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    }
+  ],
+  "growth_rate": {
+    "url": "https://pokeapi.co/api/v2/growth-rate/4/",
+    "name": "medium-slow"
+  },
+  "hatch_counter": 20,
+  "genera": [
+    {
+      "genus": "甲壳宝可梦",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/12/",
+        "name": "zh-Hans"
+      }
+    },
+    {
+      "genus": "こうらポケモン",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "genus": "Shellfish Pokémon",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "genus": "Pokémon Crostaceo",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "genus": "Pokémon Marisco",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "genus": "Panzertier",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "genus": "Pokémon Carapace",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "genus": "甲殼寶可夢",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/4/",
+        "name": "zh-Hant"
+      }
+    },
+    {
+      "genus": "껍질포켓몬",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "genus": "こうらポケモン",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    }
+  ],
+  "evolves_from_species": {
+    "url": "https://pokeapi.co/api/v2/pokemon-species/8/",
+    "name": "wartortle"
+  },
+  "form_descriptions": [],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "url": "https://pokeapi.co/api/v2/pokemon/9/",
+        "name": "blastoise"
+      }
+    },
+    {
+      "is_default": false,
+      "pokemon": {
+        "url": "https://pokeapi.co/api/v2/pokemon/10036/",
+        "name": "blastoise-mega"
+      }
+    }
+  ],
+  "name": "blastoise",
+  "evolution_chain": {
+    "url": "https://pokeapi.co/api/v2/evolution-chain/3/"
+  },
+  "has_gender_differences": false,
+  "is_baby": false,
+  "gender_rate": 1,
+  "pal_park_encounters": [
+    {
+      "rate": 3,
+      "base_score": 90,
+      "area": {
+        "url": "https://pokeapi.co/api/v2/pal-park-area/4/",
+        "name": "pond"
+      }
+    }
+  ],
+  "order": 9,
+  "pokedex_numbers": [
+    {
+      "entry_number": 88,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/12/",
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 239,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/7/",
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 234,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/3/",
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 9,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/2/",
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 9,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/1/",
+        "name": "national"
+      }
+    }
+  ]
+}

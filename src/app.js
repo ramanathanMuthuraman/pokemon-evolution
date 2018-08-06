@@ -170,6 +170,20 @@ function drop(ev) {
   validateResults();
 }
 
+function dragEnter(e) {
+  e.target.parentElement.classList.add('drag-cue');
+}
+
+function dragLeave(e) {
+  e.target.parentElement.classList.remove('drag-cue');
+}
+
+function dragend() {
+  document.querySelectorAll('.pokemon-container').forEach(node => {
+    node.classList.remove('drag-cue');
+  });
+}
+
 function renderTemplate(species) {
   if (species.length) {
     const element = document.querySelector('.game-area');
@@ -184,7 +198,10 @@ function renderTemplate(species) {
       titleElement.textContent = name;
       containerElement.setAttribute('id', index);
       containerElement.setAttribute('draggable', 'true');
+      containerElement.setAttribute('ondragenter', 'dragEnter(event)');
+      containerElement.setAttribute('ondragleave', 'dragLeave(event)');
       containerElement.setAttribute('ondragstart', 'drag(event)');
+      containerElement.setAttribute('ondragend', 'dragend(event)');
       containerElement.setAttribute('ondrop', 'drop(event)');
       containerElement.setAttribute('ondragover', 'allowDrop(event)');
       titleElement.setAttribute('class', 'pokemon-name align-center vertical-center custom-border-style cursor-move');
