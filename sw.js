@@ -6,7 +6,9 @@ const evolutionIndexCacheName = `${appName}-evolution-index-${runtimeCache}-${ve
 const evolutionCacheName = `${appName}-evolution-${runtimeCache}-${version}`;
 const pokemonCacheName = `${appName}-pokemon-${runtimeCache}-${version}`;
 const pokemonImageCacheName = `${appName}-pokemon-image-${runtimeCache}-${version}`;
-const MAX_CACHE_SIZE = 3;
+const MAX_EVOLUTION_CACHE_SIZE = 3;
+const MAX_SPECIES_IN_EVOLUTION = 3;
+const MAX_SPECIES_CACHE_SIZE = MAX_EVOLUTION_CACHE_SIZE * MAX_SPECIES_IN_EVOLUTION;
 workbox.core.setCacheNameDetails({
   prefix: appName,
   suffix: version
@@ -32,7 +34,7 @@ workbox.routing.registerRoute(
       cacheName: pokemonCacheName,
       plugins: [
         new workbox.expiration.Plugin({
-          maxEntries: MAX_CACHE_SIZE
+          maxEntries: MAX_SPECIES_CACHE_SIZE
         })
       ]
     }
@@ -45,7 +47,7 @@ workbox.routing.registerRoute(
       cacheName: pokemonImageCacheName,
       plugins: [
         new workbox.expiration.Plugin({
-          maxEntries: MAX_CACHE_SIZE
+          maxEntries: MAX_SPECIES_CACHE_SIZE
         }),
         new workbox.cacheableResponse.Plugin({
           statuses: [0, 200]
@@ -74,7 +76,7 @@ const evolutionHandlerCb = ({event}) => {
       const cache = await caches.open(evolutionCacheName);
       // Before adding to cache remove older cache entries after a threshold
       const cachedRequests = await cache.keys();
-      if (cachedRequests.length >= MAX_CACHE_SIZE) {
+      if (cachedRequests.length >= MAX_EVOLUTION_CACHE_SIZE) {
         const promises = cachedRequests.map((request) => removeRequestFromCache(request, cache));
         await Promise.all(promises);
       }
