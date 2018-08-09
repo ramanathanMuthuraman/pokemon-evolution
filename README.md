@@ -43,4 +43,9 @@ to a PWA compliant one by following the below steps.
   - [x] Create manifest
   - [x] Install Prompt
 
+### Step 5
+
+- Push notification
  
+  - [x] Subscribe to server push
+  - [x] Show notification 
