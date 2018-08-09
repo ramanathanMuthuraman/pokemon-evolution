@@ -246,14 +246,17 @@ async function fetchEvolutionChain() {
 
 function init() {
   // Injecting SW
-  if ('serviceWorker' in navigator) {
+  if ('serviceWorker' in navigator && 'PushManager' in window) {
     window.addEventListener('load', () => {
       navigator.serviceWorker.register('/sw.js').then(registration => {
+        initialisePushNotification(registration);
         console.log('SW registered: ', registration);
       }).catch(registrationError => {
         console.log('SW registration failed: ', registrationError);
       });
     });
+  } else {
+    console.log('Service worker or Push Notification not supported');
   }
   // Injecting SW
 

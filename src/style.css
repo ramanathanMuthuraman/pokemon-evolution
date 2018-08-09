@@ -7,7 +7,6 @@ html {
     --primary-color: #FF742B;
 }
 
-
 body {
     font-size: 18px;
 }
@@ -215,4 +214,71 @@ body {
 
 .drag-cue {
     border-color: var(--primary-color);
+}
+
+.notification-wrapper {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    width: 60px;
+}
+
+.tooltip-container {
+    position: relative;
+    left: -15px;
+    top: -10px;
+}
+
+.tooltip-container .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip-container .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip-container:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip-container input {
+    width: 20px;
+    padding: 5px;
+}
+
+#copyKey {
+    border-radius: 0;
+    border-left: none;
+    padding: 5px;
+}
+
+.bell {
+    border: 1px solid transparent;
+    padding: 5px;
+}
+
+.subscription-active {
+    border-color: var(--primary-color);
+    border-radius: 50%;
 }
