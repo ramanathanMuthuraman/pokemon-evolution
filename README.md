@@ -47,5 +47,5 @@ to a PWA compliant one by following the below steps.
 
 - Push notification
  
-  - [ ] Subscribe to server push
-  - [ ] Show notification 
+  - [x] Subscribe to server push
+  - [x] Show notification 
