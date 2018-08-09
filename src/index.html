@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon Evolution</title>
-    <meta name="Pokemon PWA" content="A PWA based Pokemon application"/>
+    <meta name="Pokemon PWA" content="A PWA based Pokemon application" />
     <link rel="manifest" href="./manifest.json" />
     <link rel="stylesheet" href="./style.css" />
     <script async src="https://cdn.jsdelivr.net/npm/pwacompat@2.0.6/pwacompat.min.js"
@@ -39,8 +39,22 @@
     <div class="offline-message hidden text-align-center">
         Oops, you're offline but you can still view already viewed Pokemons.
     </div>
+    <!-- push notification -->
+    <div class="notification-wrapper">
+        <div class="tooltip-container hidden align-center">
+            <input disabled class="content" id="subscription-content" />
+            <button id="copyKey">
+                <span class="tooltiptext">Copy to clipboard</span>
+                Copy
+            </button>
+            </button>
+        </div>
+        <img src="bell.png" alt="Push notification" class="bell" id="bell" width="40" height="40" />
+    </div>
+    <!-- push notification -->
 </div>
 <script type="text/javascript" src="./DragDropTouch.js"></script>
 <script type="text/javascript" src="./app.js"></script>
+<script type="text/javascript" src="./pushNotification.js"></script>
 </body>
 </html>
