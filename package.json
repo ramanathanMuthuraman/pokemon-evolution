@@ -6,10 +6,11 @@
   "scripts": {
     "start": "npm run build && nodemon server.js",
     "clean": "rm -rf dist && mkdir dist",
-    "copy": "cpx 'src/**/*' dist",
+    "copy": "copyfiles 'src/**/*' dist",
     "build": "npm run clean && npm run copy"
   },
   "dependencies": {
+    "copyfiles": "^2.0.0",
     "express": "^4.16.1",
     "nodemon": "^1.18.3",
     "pokedex-promise-v2": "^3.1.1",
