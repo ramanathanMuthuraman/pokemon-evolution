@@ -4,9 +4,9 @@
   "description": "Game based on pokemon evolution",
   "main": "server.js",
   "scripts": {
-    "start": "npm run build && nodemon server.js",
+    "start": "npm run build && node server.js",
     "clean": "rm -rf dist && mkdir dist",
-    "copy": "copyfiles 'src/**/*' dist",
+    "copy": "copyfiles src/** dist",
     "build": "npm run clean && npm run copy"
   },
   "dependencies": {
