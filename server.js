@@ -2,7 +2,7 @@ const favicon = require('serve-favicon');
 const fs = require('fs');
 const express = require('express'),
   app = express(),
-  dist = 'dist/src';
+  dist = 'dist';
 
 const PORT = process.env.PORT || 5000;
 
@@ -20,7 +20,7 @@ const cachedEvolutionList = [1, 2, 3];
 
 app.use(express.static(dist));
 
-// app.use(favicon(__dirname + '/dist/images/icons/icon-72x72.png'));
+app.use(favicon(__dirname + '/dist/images/icons/icon-72x72.png'));
 
 app.get('/', (request, response) => {
   response.sendFile(`${__dirname}/${dist}/index.html`);
