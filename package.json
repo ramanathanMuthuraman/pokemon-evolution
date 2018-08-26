@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run build && nodemon server.js",
     "clean": "rm -rf dist && mkdir dist",
-    "copy": "cpx 'src/**/*' dist",
+    "copy": "ncp src dist",
     "build": "npm run clean && npm run copy"
   },
   "dependencies": {
@@ -25,6 +25,6 @@
   },
   "license": "Apache-2.0",
   "devDependencies": {
-    "cpx": "^1.5.0"
+    "ncp": "^2.0.0"
   }
 }
